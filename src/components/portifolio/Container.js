@@ -14,7 +14,7 @@ export const Container = styled.div`
   }
 `;
 export const ContainerItem = styled.div`
-  width: 400px;
+  max-width: 400px;
   height: 200px;
   margin: 5rem 0.5rem;
   z-index: 1;

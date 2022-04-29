@@ -4,7 +4,7 @@ import Carousel from "react-elastic-carousel";
 import { Item } from './Item';
 import imc from '../../images/imc.PNG'
 import coca from '../../images/coca.JPG'
-
+import ninja from '../../images/ninja.PNG'
 const breakPoints = [
   { width: 1, itemsToShow: 1 },
   { width: 550, itemsToShow: 2 },
@@ -22,6 +22,9 @@ export const Portifolio = () => {
           </a>
           <a href="https://matheus-augusto-silva.github.io/Landing-Page-Coca-Brasil/" target="_blank" >
             <Item imgName={coca} projectName={"Landing Page Coca-Cola"}/>
+          </a>
+          <a href="https://matheus-augusto-silva.github.io/Ninja-Fingers/" target="_blank" >
+            <Item imgName={ninja} projectName={"Ninja Fingers"}/>
           </a>
       </Carousel>
 
