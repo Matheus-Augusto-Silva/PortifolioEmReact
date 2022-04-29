@@ -2,7 +2,8 @@ import React from 'react'
 import { Container} from './Container'
 import Carousel from "react-elastic-carousel";
 import { Item } from './Item';
-import dtmoney from '../../images/dtmoney.PNG'
+import imc from '../../images/imc.PNG'
+import coca from '../../images/coca.JPG'
 
 const breakPoints = [
   { width: 1, itemsToShow: 1 },
@@ -16,12 +17,12 @@ export const Portifolio = () => {
     <Container id='portifolio'>
       <h1>Portifólio</h1>
       <Carousel className='caroussel' breakPoints={breakPoints}>
-          <Item name={dtmoney}/>
-          <Item name={dtmoney}/>
-          <Item name={dtmoney}/>
-          <Item name={dtmoney}/>
-          <Item name={dtmoney}/>
-          <Item name={dtmoney}/>
+          <a href="https://matheus-augusto-silva.github.io/Projeto-IMC/" target="_blank">
+            <Item imgName={imc} projectName={"Calculador de IMC"}/>
+          </a>
+          <a href="https://matheus-augusto-silva.github.io/Landing-Page-Coca-Brasil/" target="_blank" >
+            <Item imgName={coca} projectName={"Landing Page Coca-Cola"}/>
+          </a>
       </Carousel>
 
     </Container>

@@ -4,6 +4,10 @@ export const Container = styled.div`
   width: 80%;
   margin: 5rem auto;
 
+  a {
+    text-decoration: none;
+  }
+
   h1 {
     text-align: center;
     font-size: 3rem;
