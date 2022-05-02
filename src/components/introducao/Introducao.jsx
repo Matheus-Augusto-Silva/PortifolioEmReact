@@ -12,7 +12,7 @@ export const Introducao = () => {
             <h2 >Olá, meu nome é</h2>
             <h1 >Matheus Augusto</h1>
             <p>
-              E sou um desenvolvedor Front-end.
+              E sou um Desenvolvedor Web.
             </p>
           </div>
           <img className="background" src={backgroundImg} alt="background" />
