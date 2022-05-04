@@ -14,7 +14,7 @@ const breakPoints = [
   { width: 768, itemsToShow: 3 },
   { width: 1200, itemsToShow: 4 },
 ];
-
+//
 export const Portifolio = () => {
   return (
     <Container id='portifolio'>
